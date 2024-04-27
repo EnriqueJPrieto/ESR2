@@ -1,0 +1,10 @@
+# mode 1: UPLINK----------mode 2: DOWNLINK
+parameter {
+	name = mode
+	value = 1
+}
+
+parameter {
+	name = num_layers
+	value = 1
+}

@@ -1,0 +1,13 @@
+
+
+parameter {
+	name = block_length
+	value = 36
+}
+#  0: No control data flow, 1: With control of data flow
+parameter {
+	name = ctrl_flow
+	value = 1
+}
+
+

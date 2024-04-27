@@ -1,0 +1,19 @@
+#define OPMODE_TX		0
+#define OPMODE_RX		1
+#define OPMODE_RXTX		2
+#define OPMODE_TEST0	3	//Alternated Tones
+#define OPMODE_TEST1	4	//Quality Tone 
+#define OPMODE_BYPASS	5	//Bypass
+parameter {
+	name = op_mode
+	value = 1
+}
+parameter {
+	name = NsamplesIn
+	value = 14336
+}
+parameter {
+	name = NsamplesOut
+	value = 14336
+}
+

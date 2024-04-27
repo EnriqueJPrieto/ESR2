@@ -1,0 +1,29 @@
+
+# Modes: TX_mode or RX_mode.
+# 	TX 0
+# 	RX 1
+#
+parameter {
+	name = TX_RX_mode
+	value = 0
+}
+
+
+#Coderate
+parameter {
+	name = coderate
+	value = 0.333333
+}
+
+#Modulation order
+#BPSK=    1
+#4QAM=    2
+#16QAM=   4
+#64QAM=   6
+#256QAM=  8
+
+parameter {
+	name = mod_order
+	value = 2
+}
+

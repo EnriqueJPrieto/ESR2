@@ -1,0 +1,12 @@
+# opMODE: 0-SCRAMBLING, 1-DESCRAMBLING
+parameter {
+	name = opMODE
+	value = 0
+}
+
+# DL_UL: 0->DL, 1->UL
+parameter {
+	name = DL_UL
+	value = 0
+}
+

@@ -1,0 +1,25 @@
+
+# DNI PARAMETER. PLEASE INCLUDE ONLY THE NUMBERS. DO NOT ADD THE LETTER AT THE END OF DNI. ONLY NUMBERS.
+parameter {
+	name = DNI
+	value = 43994333
+}
+# mode: 0->Normal, 1-> Control ESR
+parameter {
+	name = mode
+	value = 1
+}
+parameter {
+	name = block_length
+	value = 36
+}
+#  0: No control data flow, 1: With control of data flow
+parameter {
+	name = ctrl_flow
+	value = 0
+}
+
+parameter {
+	name = debug
+	value = 0
+}

@@ -1,0 +1,41 @@
+# debug = 0: No print debug info
+# debug = 1: Print debug info
+parameter {
+	name = debug
+	value = 1
+}
+
+#define BYPASS					0
+#define TX_GENERATOR			1
+#define TX_ONLY					2
+#define RX_ONLY					3
+#define TX_RX					4
+
+parameter {
+	name = opMODE
+	value = 3
+}
+
+parameter {
+	name = smplfreqIN
+	value = 48000.0
+}
+
+parameter {
+	name = NsamplesIn
+	value = 7168
+}
+
+parameter {
+	name = inputRFFreq
+	value = 0.0
+}
+
+parameter {
+	name = DAC_Active
+	value = 1
+}
+
+
+
+

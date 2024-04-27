@@ -1,0 +1,13 @@
+
+[000]:	Caution input interface control not connected
+
+[000]:	Caution output interface output_1 not connected
+
+[000]:	[info at file ../src/CICLIC_PREFIX.c, line 78]: Parameter block_length is 111
+
+[000]:	[info at file ../src/CICLIC_PREFIX.c, line 79]: Parameter block_length 
+
+[031]:	4 packets in interface input_0
+[032]:	3 packets in interface input_0
+[034]:	3 packets in interface input_0
+[036]:	3 packets in interface input_0

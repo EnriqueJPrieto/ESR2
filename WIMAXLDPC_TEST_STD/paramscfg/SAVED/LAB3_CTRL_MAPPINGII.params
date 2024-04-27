@@ -1,0 +1,29 @@
+# mode: 0: LAB2, 1:LAB3
+parameter {
+	name = mode
+	value = 1
+}
+# Number of PSS sequence: 0, 1 or 2.
+parameter {
+	name = phylayerID
+	value = 0
+}
+# Size of FFT symbol: 128, 256, 512, 1024, 1536, 2048.
+parameter {
+	name = FFTsize
+	value = 128
+}
+# debugMODE
+# debugMODE=0: Normal execution
+# debugMODE=1: Always load 14 OFDM symbols of real data. CTRL command to fill 14*72 carriers of data.
+# debugMODE=2: Send slope signal. CTRL command does not matter.
+# debugMODE=3: Send only PSS. CTRL command does not matter.
+parameter {
+	name = debugMODE
+	value = 0
+}
+# samplingfreqHz: A value in Hz. Use 1.0 when refers to samples
+parameter {
+	name = samplingfreqHz
+	value = 1.0
+}

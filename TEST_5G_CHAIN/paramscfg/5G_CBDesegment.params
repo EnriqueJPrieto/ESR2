@@ -1,0 +1,17 @@
+#--------------------------------------------------------------------
+parameter {
+	name = code_rate
+	value = 0.1172
+}
+parameter {
+	name = crc_length
+	value = 24
+}
+parameter {
+	name = crc_poly
+	value = 25578747
+}
+parameter {
+	name = block_length
+	value = 128
+}
